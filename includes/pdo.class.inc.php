@@ -1,3 +1,3 @@
 <?php
-$db = new Database('localhost','cmsmjc','tT3logI','cmsmjc_db1');
+$db = new Database('localhost','xxx','yyy','zzzz_db');
 ?>
