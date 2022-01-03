@@ -1,0 +1,130 @@
+body{
+	font-family:helvetica, arial, sans-serif;	
+}
+#container{
+	width:1200px;
+	border:1px solid #666;
+	border-radius:8px;	
+	padding:15px;
+	margin:auto;
+}
+header{
+	border-bottom:1px solid #ccc;	
+	margin:10px;	
+	overflow:auto;
+}
+section{
+	margin:10px;
+	overflow:auto;
+}
+.filmBlock{
+	width:220px;
+	float:left;
+	padding:5px;
+}
+.filmBlock h3{
+	width:220px;
+	height:80px;
+	padding:4px;	
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0 auto;
+	text-align:center;
+}
+.filmBlock img{
+	padding:2px;
+	border:1px solid #ccc;
+	height:317px;
+}
+.filmBlock img a{
+	border:none;
+}
+header h1{
+	float:left;
+	width:450px;
+}
+.searchForm{
+	border:1px solid #ccc;
+	padding:20px;
+	float:left;
+	width:200px;	
+}
+.searchForm input[type="search"]{
+	font-size:1.2em;	
+}
+nav{
+	clear:left;
+	margin:10px 0;	
+}
+footer{
+	border-top:1px solid #ccc;	
+	font-size:10px;
+	text-align:center;	
+	margin:10px;	
+}
+h1{
+	/*border-bottom:1px #CCCCCC solid;	*/
+}
+menu{
+	list-style:none;
+	padding-left:10px;
+}
+menu a{
+	text-decoration:none;	
+}
+menu a:hover{
+	text-decoration:underline;	
+}
+#showcart{
+	font-size:10px;
+	float:right;
+	max-height:100px;
+	overflow:auto;
+}
+table.cart{
+	border-collapse:collapse;
+    padding: 0px;
+	border:1px solid #999;
+	margin-bottom:5px;
+}
+table.cart th{
+	text-align:left;
+}
+table.cart td{
+	margin:0;
+	padding:5px;	
+}
+table.cart tr:first-child{
+	border:1px solid #999;
+	background-color:#CCC;
+	padding:4px;
+}
+table.cart tr:last-child{
+	font-weight:bold;
+	text-align:right;	
+}
+.rightImg{
+    float:right;
+	margin:10px;
+  	box-shadow: 4px 4px 4px #333333;
+}
+.indent label, span.indent{
+	display:block;
+	width:150px;
+	float:left;
+}
+.indent input:focus{
+	background-color:#CFC;
+}
+input[value="Add to Cart"]{
+	background-color:#CFC;	
+	font-size:18px;
+	width:150px;
+}
+#quantity{
+	width:50px;
+}
+
+
+
+
